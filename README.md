@@ -39,7 +39,7 @@ Anillo de polinomios 1-17 (impares) 24,25,26,27,28,19,30,31
 
 (1-13)
 
-## Sección 45 Dominios de Factorización unica
+## Sección 45 Dominios de Factorización única.
 
 (1-12) & (25-31)
 

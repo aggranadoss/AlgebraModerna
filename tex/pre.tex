@@ -1,30 +1,29 @@
-\documentclass{book} %libro xd
+\documentclass{book}
 \usepackage{cancel}
-\usepackage[reqno]{amsmath} % Paquete para el manejo de expresiones matemáticas [reqno], [leqno] y [fleqn]
+\usepackage[reqno]{amsmath} 
 \usepackage{amsthm}
-\usepackage{amssymb,amsmath,latexsym} %Paquete para llamar símbolos matemáticos
+\usepackage{amssymb,amsmath,latexsym} 
 \usepackage{tabularx,booktabs,ragged2e}
 \usepackage{amsfonts}
 \usepackage[mathscr]{euscript}
-\usepackage{graphicx} %paquete para el manejo de transformaciones geométricas de imagénes
-\usepackage{color} %paquete para el manejo de color en textos.
-%\usepackage[utf8]{inputenc} %paquete para el manejo de caracteres acentuados
-\usepackage[french,spanish]{babel} %paquete que genera documentos en diferentes idiomas
+\usepackage{graphicx} 
+\usepackage{color} 
+\usepackage[utf8]{inputenc} 
+\usepackage[french,spanish]{babel} 
 \usepackage{enumerate}
-\usepackage{multicol} % Paquete para modificar el número de columnas
-\usepackage{layout} % Paquete  para revisar los valores de 
+\usepackage{multicol}
+\usepackage{layout} 
 \usepackage{verbatim}
 \usepackage[all]{xy} 
 \usepackage{pgfplots}
-%graficos
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.15}
 \usepackage{mathrsfs}
 \usetikzlibrary{arrows}
 \pagestyle{empty}
-%graficos
-\pagestyle{myheadings}  % Estilo de página
-%\pagenumbering{arabic} % Estilo de numéración
+
+\pagestyle{myheadings} 
+\pagenumbering{arabic} 
 \hoffset1cm
 \newcounter{Teorema}
 \newcommand{\Teorema}{\stepcounter{Teorema}{\bf Teorema \theTeorema.} }
@@ -32,13 +31,12 @@
 \DeclareMathOperator{\Var}{Var}
 \DeclareMathOperator*{\Hom}{Hom}
 \setcounter{MaxMatrixCols}{15}
-\allowdisplaybreaks % Control de cambios de página en alineaciones
+\allowdisplaybreaks 
 \decimalpoint
-%\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
 \numberwithin{equation}{section}
-%\renewcommand{\theequation}{\theparentequation\arabic{equation}}
-%% Nuevos teoremas
-\theoremstyle{plain}  % Requiere el paquete amsthm
+\renewcommand{\theequation}{\theparentequation\arabic{equation}}
+\theoremstyle{plain}  
 \newtheorem{thm}{Teorema}[]
 \newtheorem*{Dem}{Demostración}
 \newtheorem{Corol}[thm]{Colorario}
@@ -50,8 +48,8 @@
 \newtheorem{notacion}[Def]{Notación}
 \newtheorem{nota}[Def]{Nota}
 \renewcommand{\qedsymbol}{$\heartsuit$}
-\providecommand{\abs}[1]{\lvert#1\rvert} %valor absoluto
-\providecommand{\norm}[1]{\lVert#1\rVert} %norma
+\providecommand{\abs}[1]{\lvert#1\rvert} 
+\providecommand{\norm}[1]{\lVert#1\rVert} 
 \usepackage{fancyhdr}
 \pagestyle{empty}
 \usepackage{pgfplots}
@@ -71,9 +69,7 @@
 \usepackage{multicol}
 \usepackage{multicol}
 \usepackage{bbding}
-%\usepackage[manejador]{color,graphicx}
 
-%colores 
 \definecolor{dorado}{cmyk}{0,0.10,0.84,0}
 \definecolor{melon}{cmyk}{0,0.29,0.84,0}
 \definecolor{naranja}{cmyk}{0,0.42,1,0}
